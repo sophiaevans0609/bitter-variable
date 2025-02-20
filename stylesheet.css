@@ -1,0 +1,215 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*Paragraphs*/
+p {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+}
+
+.about-p {
+    font-size: 20pt;
+    position:relative;
+    left: -300px;
+    top: 45px;
+}
+
+.galleryp {
+    font-family: 'Bitter', serif;
+    position: relative;
+    right: 250pt;
+    top: 100pt;
+    font-size: 40pt;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#F2B2D7, #D0E957);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     
+}
+
+/*Headings*/
+
+/*BITTER*/
+h1 {
+    text-align: center;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 550px;
+    letter-spacing:-0.07em;
+    font-style: italic;
+    color:#D0E957;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Bitter available now!*/
+.typewriter {
+    position:absolute;
+    right: 320px;
+    top: 670px;
+    width: 28ch;
+    animation: typing 9s steps(30) forwards, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Bitter', serif;
+    font-size: 2em;
+    font-weight: 100;
+    color:white;
+}
+
+@keyframes typing {
+    0%, 100% {
+        width: 0;
+    }
+    50% {
+        width:28ch;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/*About*/
+h2 {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    position: relative;
+    top: -150px;
+    left: 1000px;
+    font-weight: 800;
+    font-size: 130px;
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Gallery*/
+h3 {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    position: relative;
+    top: -325px;
+    right: -240px;
+    font-weight: 800;
+    font-size: 130px;
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Glyphs*/
+h4 {
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 130px;
+    font-style: italic;
+    color: white;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Sticky Nav*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #FFBC03;
+    color: rgb(233, 243, 243);
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-family: "Bitter", serif;
+    font-weight: 500;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar ul li {
+    display: inline;
+    text-decoration: none;
+    
+}
+.navbar a:hover{
+    color: white;
+}
+
+
+/*Sections*/
+section {
+    display: flex;
+    height: 90vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+#home {
+    height: 100vh;
+    background-color: #78D0F3;
+}
+
+#about {
+    background-color:#F2B2D7;
+    height: 50vh;
+    line-height: 52px;
+    text-align: left;
+}
+
+#example-text {
+    background-color:#D0E957;
+}
+
+#glyphs {
+    background-color:#78D0F3;
+}
+
+.footer {
+    position: static;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#FFBC03;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/*……*/
+.decoration-about {
+    position: relative;
+    top: -150px;
+    left: 410px;
+    font-weight: 200;
+    font-size: 150px;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.decoration-gallery {
+    position: relative;
+    top: -325px;
+    left: 230px;
+    font-weight: 200;
+    font-size: 150px;
+    text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
