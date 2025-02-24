@@ -15,8 +15,14 @@
             <style>
                 html {
                     cursor: url(img/Vector.svg), auto;
-                    animation-name: cursor;
-                    animation-duration: infinite;
+                }
+
+                html .navbar:hover {
+                    cursor: url(img/Vector2.svg), auto;
+                }
+
+                html .navbar ul li a:hover {
+                    cursor: url(img/Vector2.svg), auto;
                 }
             </style>
 
@@ -34,6 +40,7 @@
     
 <!---Home-->
 <section id="home">
+    <img src="img/Bitter background2.png" style=" width: 2262px; height:960px;">
     <h1>Bitter</h1>
 </section>
 
@@ -59,22 +66,32 @@
 <!---Gallery/Examples-->
 <section id="example-text">
     <h3>Gallery</h3>
-    <div class="decoration-gallery" data-svg-wrapper data-layer="… …" style="position: relative">
-        <svg width="210" height="28" viewBox="0 0 210 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M109.702 13.52C109.702 9.44667 111.089 6.19667 113.862 3.77C116.635 1.25667 119.885 0 123.612 0C127.945 0 131.325 1.25667 133.752 3.77C136.265 6.19667 137.522 9.44667 137.522 13.52C137.522 17.5933 136.135 20.8867 133.362 23.4C130.589 25.8267 127.339 27.04 123.612 27.04C119.365 27.04 115.985 25.8267 113.472 23.4C110.959 20.8867 109.702 17.5933 109.702 13.52ZM145.452 13.52C145.452 9.44667 146.839 6.19667 149.612 3.77C152.385 1.25667 155.635 0 159.362 0C163.695 0 167.075 1.25667 169.502 3.77C172.015 6.19667 173.272 9.44667 173.272 13.52C173.272 17.5933 171.885 20.8867 169.112 23.4C166.339 25.8267 163.089 27.04 159.362 27.04C155.115 27.04 151.735 25.8267 149.222 23.4C146.709 20.8867 145.452 17.5933 145.452 13.52ZM181.202 13.52C181.202 9.44667 182.589 6.19667 185.362 3.77C188.135 1.25667 191.385 0 195.112 0C199.445 0 202.825 1.25667 205.252 3.77C207.765 6.19667 209.022 9.44667 209.022 13.52C209.022 17.5933 207.635 20.8867 204.862 23.4C202.089 25.8267 198.839 27.04 195.112 27.04C190.865 27.04 187.485 25.8267 184.972 23.4C182.459 20.8867 181.202 17.5933 181.202 13.52Z" fill="#FFBC03"/>
-        <path d="M0 13.52C0 9.44667 1.38667 6.19667 4.16 3.77C6.93333 1.25667 10.1833 0 13.91 0C18.2433 0 21.6233 1.25667 24.05 3.77C26.5633 6.19667 27.82 9.44667 27.82 13.52C27.82 17.5933 26.4333 20.8867 23.66 23.4C20.8867 25.8267 17.6367 27.04 13.91 27.04C9.66333 27.04 6.28333 25.8267 3.77 23.4C1.25667 20.8867 0 17.5933 0 13.52ZM35.75 13.52C35.75 9.44667 37.1367 6.19667 39.91 3.77C42.6833 1.25667 45.9333 0 49.66 0C53.9933 0 57.3733 1.25667 59.8 3.77C62.3133 6.19667 63.57 9.44667 63.57 13.52C63.57 17.5933 62.1833 20.8867 59.41 23.4C56.6367 25.8267 53.3867 27.04 49.66 27.04C45.4133 27.04 42.0333 25.8267 39.52 23.4C37.0067 20.8867 35.75 17.5933 35.75 13.52ZM71.5 13.52C71.5 9.44667 72.8867 6.19667 75.66 3.77C78.4333 1.25667 81.6833 0 85.41 0C89.7433 0 93.1233 1.25667 95.55 3.77C98.0633 6.19667 99.32 9.44667 99.32 13.52C99.32 17.5933 97.9333 20.8867 95.16 23.4C92.3867 25.8267 89.1367 27.04 85.41 27.04C81.1633 27.04 77.7833 25.8267 75.27 23.4C72.7567 20.8867 71.5 17.5933 71.5 13.52Z" fill="#FFBC03"/>
-        </svg>
-        </div>
-    </div>
+
     <!--Gifs-->
-    <img src="img/Untitled-1.gif" style="width:528px;height:428px; border-radius:10%; ">
+    <div class="gallery-wrapper">
+        <div class="thin">Thin</div>
+        <div class="extra-light">Extra Light</div>
+        <div class="light">Light</div>
+        <div class="regular">Regular</div>
+        <div class="medium">Medium</div>
+        <div class="semibold">SemiBold</div>
+        <div class="bold">Bold</div>
+        <div class="extrabold">ExtraBold</div>
+        <div class="black">Black</div>
+    </div>
+
+    <div class="images">
+        <img src="img/Type-Bitter_Specimen.png" style="width: 30%; border-radius: 10pt;">
+        <img src="img/Bitter Mockup.png" style="width: 30%; border-radius: 10pt;">
+        <img src="img/Bitter_GIF_1.gif" style="border-radius: 10pt;">
+        <img src="img/bitter-gif-boards-14.png" style="width: 60%; border-radius: 10pt;">
+    </div>
 
 </section>
 
 <!---Glyphs-->
 <section id="glyphs">
     <h4>Glyphs</h4>
-    <img src="img/Star.svg" style="position: relative; top: -325px; left: 250px;">
 
     <!---Glyph Hover Gallery-->
     <div class="Glyph Gallery"></div>
@@ -101,16 +118,40 @@
             <div class="hover-text">ç</div>
             <div class="hover-text">µ</div>
             <div class="hover-text">{}</div>
-</div>
-    
+    </div>
+
+    <!---Glyph Row 3-->
+    <div class="wrapper3">
+            <div class="hover-text">¢</div>
+            <div class="hover-text">£</div>
+            <div class="hover-text">$</div>
+            <div class="hover-text">§</div>
+            <div class="hover-text">¶</div>
+            <div class="hover-text">#</div>
+            <div class="hover-text">^</div>
+            <div class="hover-text">«</div>
+    </div>
+
+    <!---Glyph Row 4-->
+    <div class="wrapper4">
+            <div class="hover-text">Ω</div>
+            <div class="hover-text">ß</div>
+            <div class="hover-text">ƒ</div>
+            <div class="hover-text">&</div>
+            <div class="hover-text">∆</div>
+            <div class="hover-text">…</div>
+            <div class="hover-text">†</div>
+            <div class="hover-text">*</div>
+    </div>
+
 </section>
 
 <!---Footer-->
 <div class="footer">
 
-    <p class="footerp1">Motivated by my love for the pixel I designed Bitter. A <i>"contemporary"</i> slab serif typeface for text, it is specially designed for comfortably reading on any computer or device.</p>
+    <p class="footerp1">Motivated by my love for the pixel I designed Bitter. A <i><b>"contemporary"</b></i> slab serif typeface for text, it is specially designed for comfortably reading on any computer or device.</p>
 
-    <p class="footerp2">Bitter has little variation in stroke weight and the Regular is thicker than   a normal ‘Regular’ style for print design. This generates an intense color in paragraphs, accentuated by the serifs that are as thick as strokes with square terminals.</p>
+    <p class="footerp2">Bitter has little variation in stroke weight and the Regular is thicker than   a normal <i>‘Regular’</i> style for print design. This generates an intense <b>color</b> in paragraphs, accentuated by the serifs that are as thick as strokes with square terminals.</p>
 </div>
 
 <script src="java script/script.js"></script>
