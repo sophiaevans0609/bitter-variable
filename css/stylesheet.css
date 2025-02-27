@@ -28,7 +28,7 @@ p {
     align-items: center;
     position: relative;
     top: 450px;
-    left: 130px;
+    left: 160px;
     font-weight: 200;
     font-size: 40px;
     text-align: left;
@@ -40,10 +40,10 @@ p {
     align-items: center;
     position: relative;
     top: 120px;
-    left: 650px;
+    left: 680px;
     font-size: 45px;
     text-align: left;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /*
@@ -122,6 +122,7 @@ h2 {
     word-wrap: break-word;
     letter-spacing:-0.07em;
     text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    z-index: 3;
 }
 
 /*Gallery*/
@@ -141,11 +142,12 @@ h3 {
 
 /*Glyphs*/
 h4 {
+    z-index: 5;
     font-family: "Bitter", serif;
     font-optical-sizing: auto;
     position: relative;
-    top:-325px;
-    right: -640px;
+    top:-390px;
+    right: -670px;
     font-weight: 800;
     font-size: 130px;
     font-style: italic;
@@ -220,19 +222,27 @@ section {
 }
 
 #glyphs {
-    background-color:#FFBC03;
+    background-color:#78D0F3;
 }
 
 /*   GALLERY */
 
 .gallery-wrapper {
+    position: absolute;
+    left: 300px;
     align-items: left;
-    margin-top: 130pt;
+    margin-top: 120pt;
+    display: grid;
+    grid-column: span 2;
+    grid-row: span 3;
+    grid-template-columns: 350px 460px 360px;
+    grid-template-rows: 90px 90px;
+    gap: 12px;
 }
 
 .thin {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 100;
     font-style: normal;
     color: #fff;
@@ -240,13 +250,13 @@ section {
 /*Hover*/
 .thin:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .extra-light {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 200;
     font-style: normal;
     color: #fff;
@@ -254,13 +264,13 @@ section {
 /*Hover*/
 .extra-light:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .light {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 300;
     font-style: normal;
     color: #fff;
@@ -268,13 +278,13 @@ section {
 /*Hover*/
 .light:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .regular {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 400;
     font-style: normal;
     color: #fff;
@@ -282,13 +292,13 @@ section {
 /*Hover*/
 .regular:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .medium {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 500;
     font-style: normal;
     color: #fff;
@@ -296,13 +306,13 @@ section {
 /*Hover*/
 .medium:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .semibold {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 600;
     font-style: normal;
     color: #fff;
@@ -310,13 +320,13 @@ section {
 /*Hover*/
 .semibold:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .bold {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 700;
     font-style: normal;
     color: #fff;
@@ -324,13 +334,13 @@ section {
 /*Hover*/
 .bold:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .extrabold {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 800;
     font-style: normal;
     color: #fff;
@@ -338,13 +348,13 @@ section {
 /*Hover*/
 .extrabold:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
 .black {
     font-family: 'Bitter', serif;
-    font-size: 45pt;
+    font-size: 55pt;
     font-weight: 900;
     font-style: normal;
     color: #fff;
@@ -352,7 +362,7 @@ section {
 /*Hover*/
 .black:hover{
     font-style: italic;
-    color:#FFBC03;
+    color:#F2B2D7;
     transition: all 0.3s ease;
 }
 
@@ -364,7 +374,7 @@ section {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#FFBC03;
+    background-color:#78D0F3;
     color: white;
     text-align: center;
     font-weight: 500;
@@ -400,56 +410,56 @@ section {
     display: grid;
     position: absolute;
     width: 1370px;
-    left: 130px;
+    left: 160px;
     top: 2500px;
     grid-template-columns: 159px 159px 159px 159px 159px 159px 159px 159px 159px;
     grid-template-rows: 216px 290px;
     column-gap: 15px;
-    background-color: #FFBC03;
+    background-color: #78D0F3;
 }
 
     /*ROW 2*/
 .wrapper2 {
     display: grid;
     position: absolute;
-    left: 130px;
+    left: 160px;
     top: 2730px;
     width: 1370px;
     grid-template-columns: 159px 159px 159px 159px 159px 159px 159px 159px 159px;
     grid-template-rows: 216px 290px;
     column-gap: 15px;
-    background-color: #FFBC03;
+    background-color: #78D0F3;
 }
 
     /*ROW 3*/
 .wrapper3 {
     display: grid;
     position: absolute;
-    left: 130px;
+    left: 160px;
     top: 2960px;
     width: 1370px;
     grid-template-columns: 159px 159px 159px 159px 159px 159px 159px 159px 159px;
     grid-template-rows: 216px 290px;
     column-gap: 15px;
-    background-color: #FFBC03;
+    background-color: #78D0F3;
 }
 
   /*ROW 3*/
   .wrapper4 {
     display: grid;
     position: absolute;
-    left: 130px;
+    left: 160px;
     top: 3190px;
     width: 1370px;
     grid-template-columns: 159px 159px 159px 159px 159px 159px 159px 159px 159px;
     grid-template-rows: 216px 290px;
     column-gap: 15px;
-    background-color: #FFBC03;
+    background-color: #78D0F3;
   }
 
     /*GLYPH TEXT ANIMATION*/
 .hover-text {
-    background-color: #78D0F3;
+    background-color: #D0E957;
     color: #F2B2D7;
     padding: 0px;
     font: 100px 'Bitter', serif;
@@ -463,7 +473,7 @@ section {
 
 .hover-text:hover {
     font: 150px 'Bitter', serif;
-    color: #D0E957;
+    color: #FFBC03;
     font-weight: 700;
     font-style: normal;
 }
